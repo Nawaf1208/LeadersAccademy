@@ -116,7 +116,7 @@ const studentSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  gurdianscontact: {
+  gurdianscontact: { 
     type: String,
     required: true,
   },
@@ -133,7 +133,7 @@ const studentSchema = new mongoose.Schema({
     required: true,
   },
 });
-
+  
 // create collection
 
 const Register = new mongoose.model("Register", studentSchema);
